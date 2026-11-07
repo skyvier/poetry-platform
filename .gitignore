@@ -1,0 +1,6 @@
+.superpowers/
+_site/
+_cache/
+dist-newstyle/
+result
+.passphrase
