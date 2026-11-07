@@ -1,0 +1,3 @@
+packages: .
+-- Use only the packages provided by the Nix dev shell.
+active-repositories: :none

@@ -1,0 +1,16 @@
+<main class="poem-page">
+  <h1 class="poem-title">$title$</h1>
+  <p class="hint" aria-hidden="true">napauta tai paina välilyöntiä</p>
+  <div class="poem" id="poem">
+$poem$
+  </div>
+  <footer class="poem-end" id="poem-end">
+    <div class="ornament" aria-hidden="true">❦</div>
+    <nav>
+      <a href="/">← sisällys</a>
+$if(next-url)$
+      <a href="$next-url$" title="$next-title$">seuraava →</a>
+$endif$
+    </nav>
+  </footer>
+</main>

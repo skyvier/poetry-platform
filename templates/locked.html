@@ -1,0 +1,15 @@
+<div id="content"></div>
+<main class="locked" id="locked" data-salt="$salt$" data-iterations="$iterations$">
+  <p class="locked-title">$site-title$</p>
+  <form class="unlock" id="unlock" hidden>
+    <input type="password" id="passphrase" name="passphrase" placeholder="salasana"
+           aria-label="salasana" autocomplete="current-password" autocapitalize="off" spellcheck="false" required>
+    <p class="unlock-status" id="unlock-status" aria-live="polite"></p>
+  </form>
+  <noscript><p class="unlock-status">Runot avautuvat vain JavaScriptin kanssa.</p></noscript>
+</main>
+<script type="application/json" id="sealed">$sealed$</script>
+<script src="/js/crypto-core.js"></script>
+<script src="/js/reveal-core.js"></script>
+<script src="/js/reveal.js"></script>
+<script src="/js/unlock.js"></script>
